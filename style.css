@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Montserrat:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.destaque {
+    color: #4289b4;
+}
+
+.apresentacao{
+    margin: 8% 15%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-family: "Sedan", serif;
+    font-size: 44px;
+    
+}
+.apresentacao__conteudo__texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    
+}
+.apresentacao__botao{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__botao__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.imagem{
+    border-radius: 16px;
+}
