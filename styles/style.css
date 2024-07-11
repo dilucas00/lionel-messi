@@ -33,7 +33,7 @@ body {
 }
 
 .cabecalho__menu__links{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color:var(--cor-terciaria);
@@ -47,11 +47,11 @@ body {
     margin: 7% 15%;
     align-items: center;
     display: flex;
-    
+    gap: 82px;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
-    width: 600px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -59,12 +59,12 @@ body {
 }
 .apresentacao__conteudo__titulo{
     font-family: "Sedan", serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     
 }
 .apresentacao__conteudo__texto{
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     
 }
@@ -78,15 +78,15 @@ body {
 }
 .apresentacao__botao__link{
     
-    width: 280px;
+    
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
     gap: 16px;
     text-align: center;
-    width: 388px;
+    width: 50%;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     padding: 21.5px 0;
     text-decoration: none;
@@ -96,12 +96,13 @@ body {
     
 }
 .imagem{
-    border-radius: 16px;
+    width: 50%;
+    
     padding-left: 50px;
 }
 .apresentacao__subtitulo{
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .apresentacao__botao__link:hover{
@@ -113,24 +114,43 @@ body {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
 }
 .paragrafo__about{
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     text-align: justify;
     line-height: 1.5em
 }
 .imagem__about{
     padding-left: 10%;
-    width: 300px;
+    width: 50%;
 }
 .titulo__videos{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 20%;
+}
+@media (max-width: 1200px){
+
+    .cabecalho{
+        padding: 10%;
+
+    }
+    .cabecalho__menu{
+        justify-content: center;
+
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
 }
